@@ -1,0 +1,6 @@
+{
+  "name": "RG HR – Recruitment Status & Checklist",
+  "description": "Centralized real-time recruitment management and executive dashboard for RG HR with live multi-user collaboration, automated turnaround time tracking, and analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

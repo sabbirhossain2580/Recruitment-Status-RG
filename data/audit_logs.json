@@ -1,0 +1,13 @@
+[
+  {
+    "id": "audit-clean-start",
+    "recordId": "all",
+    "action": "BATCH_IMPORT",
+    "performedBy": "System",
+    "performedByEmpId": "SYSTEM",
+    "performedByRole": "editor",
+    "timestamp": "2026-11-01T00:00:00.000Z",
+    "changes": [],
+    "summaryNote": "Clean system initialized. Ready for recruitment requisitions."
+  }
+]

@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --card-shadow-3d: 0 10px 30px -5px rgba(15, 23, 42, 0.08), 0 4px 6px -2px rgba(15, 23, 42, 0.04), 0 0 0 1px rgba(15, 23, 42, 0.05);
+    --card-shadow-3d-hover: 0 20px 35px -8px rgba(30, 58, 138, 0.15), 0 10px 15px -3px rgba(30, 58, 138, 0.08), 0 0 0 1px rgba(59, 130, 246, 0.2);
+  }
+
+  .dark {
+    --card-shadow-3d: 0 10px 30px -5px rgba(0, 0, 0, 0.5), 0 4px 6px -2px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(255, 255, 255, 0.08);
+    --card-shadow-3d-hover: 0 20px 35px -8px rgba(59, 130, 246, 0.25), 0 10px 15px -3px rgba(59, 130, 246, 0.15), 0 0 0 1px rgba(96, 165, 250, 0.3);
+  }
+}
+
+/* Custom 3D Card Glassmorphism */
+.glass-card-3d {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: var(--card-shadow-3d);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  transform-style: preserve-3d;
+}
+
+.dark .glass-card-3d {
+  background: rgba(15, 23, 42, 0.85);
+}
+
+.glass-card-3d:hover {
+  box-shadow: var(--card-shadow-3d-hover);
+  transform: translateY(-2px);
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.4);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 116, 139, 0.7);
+}
+
+/* Print Styles for PDF / Report Generation */
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .glass-card-3d {
+    box-shadow: none !important;
+    border: 1px solid #cbd5e1 !important;
+  }
+}

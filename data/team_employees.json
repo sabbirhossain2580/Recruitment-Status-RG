@@ -1,0 +1,62 @@
+[
+  {
+    "id": "22-02-1330",
+    "employeeId": "22-02-1330",
+    "name": "Quazi Nuzhat Rahman",
+    "designation": "Senior Executive, HR",
+    "role": "editor",
+    "avatarColor": "from-indigo-600 to-blue-700",
+    "email": "nuzhat.rahman@rghr.com",
+    "status": "active"
+  },
+  {
+    "id": "22-02-1642",
+    "employeeId": "22-02-1642",
+    "name": "Sabbir Hossain",
+    "designation": "Executive, HR",
+    "role": "editor",
+    "avatarColor": "from-blue-600 to-cyan-600",
+    "email": "sabbir.hossain@rghr.com",
+    "status": "active"
+  },
+  {
+    "id": "02-02-2059",
+    "employeeId": "02-02-2059",
+    "name": "Fariha Nasmi",
+    "designation": "Assistant Executive, HR",
+    "role": "editor",
+    "avatarColor": "from-emerald-600 to-teal-700",
+    "email": "fariha.nasmi@rghr.com",
+    "status": "active"
+  },
+  {
+    "id": "22-02-1551",
+    "employeeId": "22-02-1551",
+    "name": "Maisha Islam",
+    "designation": "Assistant Executive, HR",
+    "role": "editor",
+    "avatarColor": "from-rose-600 to-pink-700",
+    "email": "maisha.islam@rghr.com",
+    "status": "active"
+  },
+  {
+    "id": "01-02-0440",
+    "employeeId": "01-02-0440",
+    "name": "Syeda Shaila Ashraf",
+    "designation": "Head of HR",
+    "role": "editor",
+    "avatarColor": "from-purple-600 to-violet-800",
+    "email": "shaila.ashraf@rghr.com",
+    "status": "active"
+  },
+  {
+    "id": "22-02-1826",
+    "employeeId": "22-02-1826",
+    "name": "Shahriyar Naiem",
+    "designation": "Manager, HR & OD",
+    "role": "editor",
+    "avatarColor": "from-amber-600 to-orange-700",
+    "email": "shahriyar.naiem@rghr.com",
+    "status": "active"
+  }
+]
